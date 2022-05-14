@@ -1,0 +1,28 @@
+.lb-container {
+    width: 270px;
+    height: 50px;
+    border-radius: 3px;
+    display: flex !important;
+    padding: 0px !important;
+    overflow: hidden !important;
+    border: none !important;
+}
+
+.lb-icon {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e9ecf3;
+    height: inherit;
+}
+
+.lb-content {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: #e9ecf3;
+    font-weight: 500;
+    height: inherit;
+}
