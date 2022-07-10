@@ -3,7 +3,7 @@ import { Common } from "types/LayoutType";
 const CommonLayout = (props: Common) => {
   return (
     <div>
-      <h3>Common</h3>
+      <h4 className="text-center">TO DO LIST</h4>
       {props.children}
     </div>
   );

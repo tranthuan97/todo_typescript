@@ -2,12 +2,13 @@ import { RouteType } from "types/RouteType";
 
 import Login from "pages/Login";
 import Register from "pages/Register";
+import Introduce from "pages/Introduce";
 
 const routes: Array<RouteType> = [
   {
-    name: 'Login',
+    name: 'Introduce',
     path: '/',
-    element: <Login />,
+    element: <Introduce />,
   },
   {
     name: 'Login',
